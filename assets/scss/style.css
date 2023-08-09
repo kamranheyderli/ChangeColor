@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(160, 160, 196);
+}
+body .container {
+  width: 700px;
+  height: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+body .container .box {
+  width: 70%;
+  height: 300px;
+  transition: all 0.4s ease;
+  border: 3px solid rgb(250, 239, 239);
+}
+body .container input {
+  width: 350px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */
